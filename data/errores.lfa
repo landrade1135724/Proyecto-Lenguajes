@@ -1,0 +1,25 @@
+# Errores comunes de estructura o alfabeto
+
+# Línea con símbolo no válido (emoji)
+U001|Ana López 😊
+
+# Línea con símbolo no válido ($)
+L001|Fundamentos de Matemáticas $
+
+# Línea con número incorrecto de campos
+U003|Carlos|Extra
+
+# Préstamo con fecha inválida
+U002|L001|2025-13-01|2025-14-35
+
+# Préstamo con ID de usuario inexistente
+U999|L002|2025-08-15|2025-08-30
+
+# Préstamo con ID de libro inexistente
+U001|L999|2025-08-10|2025-08-25
+
+# Prestamo con carácter especial no permitido en nombre
+U004|Luis@Gomez
+
+# Línea vacía (se debería ignorar pero no es error grave)
+
