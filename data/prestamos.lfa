@@ -1,0 +1,15 @@
+# Formatos admitidos:
+# A) id_usuario|id_libro|fecha_prestamo|fecha_devolucion
+# B) id_usuario|nombre_usuario|id_libro|titulo_libro|fecha_prestamo|fecha_devolucion
+# Nota: fecha_devolucion vacía => aún no devuelto
+
+# Ejemplos válidos (algunos vencidos considerando un plazo de 30 días):
+U001|L001|2025-07-20|
+U002|L003|2025-08-01|2025-08-15
+U003|L002|2025-07-30|
+U004|L005|2025-08-20|
+U005|L006|2025-08-25|2025-09-02
+U001|L004|2025-06-10|
+
+# Ejemplo con formato extendido (incluye nombre de usuario y título del libro)
+U002|Carlos Ruiz|L001|Introducción a los Autómatas y Lenguajes Formales|2025-08-05|2025-08-21
